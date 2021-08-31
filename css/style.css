@@ -259,6 +259,7 @@ input[type="number"] {
   }
   .main__container {
     flex-wrap: wrap;
+    padding: 26px;
   }
   .amount__container {
     width: 100%;
@@ -267,6 +268,9 @@ input[type="number"] {
   .buttons {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .button__percent{
+      padding:5px 25px;
   }
   .people__input {
     margin-bottom: 30px;
