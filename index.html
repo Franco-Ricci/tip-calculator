@@ -33,12 +33,12 @@
     </header>
     <main class="main__container">
       <div class="bill__container">
-        <label for="bill__input" class="main__text">Bill</label>
+        <label for="bill" class="main__text">Bill</label>
 
         <input
           type="number"
-          id="input-number"
           class="bill__input"
+          id="bill"
           name="bill"
           min="0"
           placeholder="0"
@@ -47,36 +47,34 @@
         <p class="main__text">Select Tip %</p>
 
         <div class="buttons">
-          <button class="button__percent" value=5>5%</button>
+          <button class="button__percent" value="5">5%</button>
           <button class="button__percent" value="10">10%</button>
           <button class="button__percent" value="15">15%</button>
           <button class="button__percent" value="25">25%</button>
           <button class="button__percent" value="30">30%</button>
 
-          <input type="number" id="input-number" class="custom__input" placeholder="Custom" />
+          <input type="number" class="custom__input" placeholder="Custom" />
         </div>
         <div class="container__people">
-        <label for="people__input" class="main__text">Number of People</label>
-        <p class="text__error">Can't be zero</p>
-      </div>
+          <label for="people" class="main__text">Number of People</label>
+          <p class="text__error">Can't be zero</p>
+        </div>
         <input
           type="number"
-          id="input-number"
           name="people"
           min="1"
+          id="people"
           class="people__input"
           placeholder="0"
-        
         />
       </div>
       <div class="amount__container">
         <div class="total">
           <p class="text__amount">Tip Amount</p>
           <p class="tip" id="price-amount">$0</p>
-        
         </div>
         <span class="text__person">/ person</span>
-       
+
         <div class="total">
           <p class="text__total">Total</p>
           <p class="tip" id="price-total">$0</p>
@@ -87,7 +85,6 @@
         </div>
       </div>
     </main>
-
 
     <div class="attribution">
       Challenge by
